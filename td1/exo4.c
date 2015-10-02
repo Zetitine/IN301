@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Ce programme calcule la somme de 1/i² avec i allant de 1 à n;
+
 int main ()
 {
 	float i = 1, nombre, resultat = 0.0, test = 0.0;
@@ -9,8 +11,8 @@ int main ()
 	while(1 == 1)
 	{
 		resultat = resultat + 1/(i*i);
-		if(resultat - test < nombre)
-			break;
+		if(resultat - test < nombre) // Test pour savoir si N+1 - N est inférieur à la précision demandée.
+			break; //Une seule instruction pour le if, sors de la boucle infini.
 			
 		test = resultat;
 		i = i + 1;

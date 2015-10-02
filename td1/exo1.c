@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 
+//Permet de choisir un nombre et il affichera autant d'étoiles
 void affichage(int nombre)
 {
 	int i, j;

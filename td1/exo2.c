@@ -23,7 +23,7 @@ void decoupe_temps(int s)
 	
 }
 
-
+//Donne un nombre de seconde qui sera converti en heure, minute, et reste de seconde. Ne fais pas les jours et les années.
 
 int main()
 {
