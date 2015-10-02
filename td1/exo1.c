@@ -21,6 +21,6 @@ int main()
 	printf("Choisissez le nombre d'etoile(s) a afficher : ");
 	scanf("%d", &nombre);
 	affichage(nombre);
-	
+	return 0;
 }
 

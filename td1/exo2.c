@@ -6,6 +6,7 @@ void decoupe_temps(int s)
 	int m, h;
 	m = s / 60;
 	h = m / 60;
+	m = m % 60;
 	s = s % 60;
 	if(h > 1)
 		printf("Il y a %d heures, ", h);
@@ -32,5 +33,5 @@ int main()
 	printf("\n");
 	decoupe_temps(s);
 	
-	
+	return 0;
 }
