@@ -17,9 +17,9 @@ void decoupe_temps(int s)
 	else
 		printf("%d minute ", m);
 	if(s > 1)
-		printf("et %d secondes.", s);
+		printf("et %d secondes.\n", s);
 	else
-		printf("et %d seconde.", s);
+		printf("et %d seconde.\n", s);
 	
 }
 

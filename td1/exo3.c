@@ -24,7 +24,7 @@ void egypte(int nbr1, int nbr2)
 		}	
 	}
 	resultat = resultat + nbr2;
-	printf("= %d", resultat);
+	printf("= %d\n", resultat);
 }
 
 
