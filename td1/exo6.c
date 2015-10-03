@@ -46,7 +46,7 @@ void listedamis(int Nmax)
 	
 	for(N = 2; N <= Nmax; N++)
 	{
-		for(M = 1; M < N; M++)
+		for(M = (75*N)/100; M < N; M++) //Tout les nombres amis sont relativement proches numériquement
 		{
 			if(N % 2 == 0 && M % 2 == 0 || N % 2 == 1 && M % 2 == 1)//Pour diminuer la complexité, les nombres amis sont toujours pairs entre eux OU impair entre eux
 			{
