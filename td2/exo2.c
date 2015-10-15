@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-
 struct Tableau{
 	int taille;
 	int tab[100];
