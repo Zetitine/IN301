@@ -22,12 +22,6 @@ install_sdl:
 	sudo apt-get install libsdl1.2-dev
 	sudo apt-get install libsdl-ttf2.0-dev
 
-
-demo: demo_1 demo_2 demo_3
-	./demo_1
-	./demo_2
-	./demo_3
-
 zip: clean
 #	rm -f $(ZIPDIR).zip
 	rm -rf $(ZIPDIR)
